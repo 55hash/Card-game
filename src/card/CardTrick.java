@@ -21,7 +21,7 @@ import java.util.Scanner;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        Card luckyCard = new Card(7, "Hearts"); 
+        Card luckyCard = new Card(10, "Clubs"); 
         System.out.println("Lucky card is: " + luckyCard);
 
   
