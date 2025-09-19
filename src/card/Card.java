@@ -2,6 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
+
+//Name: Hashandeep singh
+
 package card;
 
 /**
@@ -12,14 +15,25 @@ package card;
  * This code is to be used in ICE1. When you create your own branch,
  * add your name as a modifier.
  * @author srinivsi
+ * @author Hashandeep Singh - 991787094
  */
+
+
+
 public class Card {
 
-   private String suit; //clubs, spades, diamonds, hearts
-   private int value;//1-13
+   private String suit; 
+   private int value;
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
-    /**
+   
+    public Card(int value, String suit) {
+        this.value = value;
+        this.suit = suit;
+    }
+   
+   
+   /**
      * @return the suit
      */
     public String getSuit() {
@@ -46,6 +60,20 @@ public class Card {
     public void setValue(int value) {
         this.value = value;
     }
+    
+    public static String getSuitName(int index) {
+        if (index > 0 && index < SUITS.length){
+            return SUITS[index];
+        } else {
+            return "Unknown";
+        }
+    }
+    
+    @Override
+    public String toString() {
+        return suit + " " + value;
+    }
+    
    
    
     
