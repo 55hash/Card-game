@@ -1,5 +1,5 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this licenses
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this licensess
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 
